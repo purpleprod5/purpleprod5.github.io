@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+
+.méridia_thx {
+    color: yellow;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.méridia_luxuriante {
+    text-align: left;
+}
+
+.méridia_super_colonie{
+    height: 570px;
+    width: 1140px;
+    float: right;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.différence_méridia{
+    float: left;
+}
+
+.black_hole {
+    text-underline-position: below;
+    float: right;
+    
+}
+
+.index a {
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+    background-color: black;
+    align-items: center;
+}
+
+.button:hover {
+    box-shadow: 0px 10px 73px -3px rgb(251, 255, 0);
+}
+
+img{
+    border-radius: 15px;
+}
