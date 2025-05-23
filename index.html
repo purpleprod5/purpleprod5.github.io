@@ -1,132 +1,273 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="portfolio.css" />
-  <title>portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Étudiant Développeur</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <div class="en-tête">
-    <div>
-      <button class="nom">Tirard jimmy</button>
-    </div>
-    <div class="Menu">
-      <button class="Accueil">Accueil</button>
-      <button class="CV">CV</button>
-      <button class="Mes_Project">Mes Project</button>
-      <button class="Compétences">Compétences</button>
-      <button class="Stage">Stage</button>
-      <button class="Veilles_techno">Veille techno</button>
-    </div>
-  </div>
-  <div class="presentation">
-    <div class="img-text">
-      <img class="photo" src="" />
-      <p class="text-presentation">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel
-        vehicula tellus. Nulla tempus ornare nulla, ut accumsan sapien sodales
-        quis. Pellentesque blandit eget turpis non porta. Vestibulum facilisis
-        turpis pharetra viverra egestas. Donec non aliquam elit. Curabitur sed
-        turpis eu odio tempor malesuada. Mauris aliquam justo at porta
-        aliquet. Quisque a tincidunt nibh. Curabitur ut leo efficitur, lacinia
-        ante in, vehicula lacus. Cras venenatis massa vitae dictum ultrices.
-        Ut ac erat quis enim hendrerit faucibus semper eu lorem. Nullam vel
-        diam dolor. Integer mi odio, hendrerit nec accumsan id, mattis eu
-        nisi. Suspendisse potenti. Proin ut consectetur erat. Ut ipsum ex,
-        ornare a venenatis a, scelerisque nec ipsum. Quisque ullamcorper, enim
-        nec euismod maximus, erat tellus cursus nisi, ut tristique augue diam
-        non ipsum. Maecenas lacinia mauris quis mi commodo, non tristique nisl
-        imperdiet. Etiam eget viverra nunc. Morbi pharetra, ligula sed
-        tincidunt vestibulum, ligula erat convallis velit, quis rutrum nibh
-        erat id augue. Vestibulum rhoncus est vitae pretium vestibulum. Mauris
-        interdum mauris eu porttitor rhoncus. Morbi a nulla a mauris fringilla
-        gravida quis vel sem. Aliquam sed varius nisl. Pellentesque pulvinar
-        libero felis, non rhoncus tellus vehicula ac. Cras ullamcorper lorem
-        vitae odio accumsan lacinia. Aliquam ac porttitor ante. Quisque
-        consequat non est nec imperdiet. Suspendisse in ligula diam. Sed
-        rhoncus ligula sit amet rhoncus interdum. Pellentesque faucibus mattis
-        elementum.
-      </p>
-    </div>
-    <hr class="ligne" />
-    <div class="container">
-      <div class="first-child">
-        <div class="textright">
-          <p>
-            Praesent in metus eu enim semper accumsan. Etiam ac leo pharetra,
-            lacinia nisl nec, faucibus enim. Nulla ac lectus augue. Donec
-            mollis id quam nec eleifend. Morbi lobortis enim sit amet dolor
-            commodo feugiat. Suspendisse ut magna sit amet augue posuere
-            fringilla. Vestibulum nisl arcu, ultrices quis consectetur eget,
-            pellentesque ac lectus. In in nulla nisl. Quisque diam nisl,
-            faucibus non nibh accumsan, ultricies aliquet libero. Ut egestas
-            augue sed turpis iaculis sagittis. Etiam neque ex, interdum ut
-            turpis in, cursus maximus libero. Phasellus vel tellus iaculis,
-            semper turpis vel, malesuada turpis. Nunc bibendum ligula eu
-            tellus consequat, ac vulputate erat lacinia. Aliquam erat
-            volutpat. Duis sagittis egestas eros, ac porttitor sapien accumsan
-            nec. Nam nec velit sit amet nibh vestibulum lobortis vel ac nisl.
-            Sed fermentum varius velit, sit amet condimentum dui. Morbi quis
-            dolor sem. Mauris pretium, velit eget efficitur venenatis, massa
-            ipsum imperdiet nibh, sit amet mollis ex arcu ut eros. Suspendisse
-            pulvinar eros non libero lobortis, quis dignissim mi venenatis. Ut
-            sem massa, tincidunt ac ipsum ac, maximus facilisis massa. Morbi
-            scelerisque aliquet cursus. Aliquam eu vehicula dui, id tincidunt
-            nisl.
-          </p>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Portfolio</a>
+                <ul class="nav-links">
+                    <li><a href="#hero">Accueil</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#resume">Mon CV</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
         </div>
-        <div class="logo-python">
-          <img class="img-python" src="asset/python-logo.png" />
-        </div>
-        <div class="first-child">
-          <div class="textright">
-            <p>
-              Praesent in metus eu enim semper accumsan. Etiam ac leo pharetra,
-              lacinia nisl nec, faucibus enim. Nulla ac lectus augue. Donec
-              mollis id quam nec eleifend. Morbi lobortis enim sit amet dolor
-              commodo feugiat. Suspendisse ut magna sit amet augue posuere
-              fringilla. Vestibulum nisl arcu, ultrices quis consectetur eget,
-              pellentesque ac lectus. In in nulla nisl. Quisque diam nisl,
-              faucibus non nibh accumsan, ultricies aliquet libero. Ut egestas
-              augue sed turpis iaculis sagittis. Etiam neque ex, interdum ut
-              turpis in, cursus maximus libero. Phasellus vel tellus iaculis,
-              semper turpis vel, malesuada turpis. Nunc bibendum ligula eu
-              tellus consequat, ac vulputate erat lacinia. Aliquam erat
-              volutpat. Duis sagittis egestas eros, ac porttitor sapien accumsan
-              nec. Nam nec velit sit amet nibh vestibulum lobortis vel ac nisl.
-              Sed fermentum varius velit, sit amet condimentum dui. Morbi quis
-              dolor sem. Mauris pretium, velit eget efficitur venenatis, massa
-              ipsum imperdiet nibh, sit amet mollis ex arcu ut eros. Suspendisse
-              pulvinar eros non libero lobortis, quis dignissim mi venenatis. Ut
-              sem massa, tincidunt ac ipsum ac, maximus facilisis massa. Morbi
-              scelerisque aliquet cursus. Aliquam eu vehicula dui, id tincidunt
-              nisl.
-            </p>
-          </div>
-          <div class="textleft">
-            <p></p>
-          </div>
-        </div>
-      </div>
-      <hr class="ligne" />
-      <div class="devweb">
-        <img class="html" src="/asset/HTML.png" />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel mauris et tortor bibendum porta quis et
-          neque. Suspendisse potenti. Duis dapibus orci lectus, at tincidunt dui volutpat vitae. Suspendisse hendrerit
-          posuere lectus a porta. Quisque rutrum vestibulum diam non mattis. In dui nisl, tristique eu enim vitae,
-          facilisis ultricies massa. Aenean quis arcu non velit facilisis iaculis. Fusce consequat nunc ac varius
-          efficitur. Mauris rutrum tincidunt lacus. Sed odio risus, elementum at rhoncus at, dapibus ac leo. Mauris
-          pellentesque nibh dolor, ac porta purus dignissim vitae. Sed leo magna, ultrices quis dictum sit amet,
-          pulvinar vitae justo. Donec scelerisque, orci ac feugiat tincidunt, turpis enim imperdiet risus, at
-          pellentesque eros urna nec sem. Cras lobortis laoreet arcu vel euismod.
-        </p>
-        <img class="CSS" src="/asset/CSS.png" />
-      </div>
-    </div>
-</body>
+    </header>
 
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Bonjour, je suis <br><span style="color: var(--primary);">Étudiant Développeur</span></h1>
+                    <p>Passionné par le développement web et en apprentissage constant des nouvelles technologies.</p>
+                    <a href="#resume" class="btn">Voir mon CV</a>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Étudiant Passionné par le Développement</h3>
+                    <p>Je suis actuellement étudiant en développement web et je me passionne pour la création d'applications modernes. Chaque jour, j'apprends de nouvelles technologies et j'améliore mes compétences en programmation.</p>
+                    <p>Mon objectif est de devenir un développeur full-stack compétent. J'aime relever des défis techniques et découvrir comment transformer des idées créatives en solutions digitales fonctionnelles. Je suis particulièrement intéressé par les frameworks modernes et les bonnes pratiques de développement.</p>
+                    <a href="#resume" class="btn">Voir mon CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Mes compétences</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3 class="skill-title">HTML5 & CSS3</h3>
+                    <p class="skill-description">Création de sites web responsives et accessibles avec les standards modernes du web.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3 class="skill-title">JavaScript</h3>
+                    <p class="skill-description">Développement d'applications web interactives, en cours d'apprentissage des concepts avancés.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3 class="skill-title">React.js</h3>
+                    <p class="skill-description">Apprentissage de la création d'interfaces utilisateur avec React et ses concepts fondamentaux.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <h3 class="skill-title">Node.js</h3>
+                    <p class="skill-description">Initiation au développement backend avec Node.js et découverte de l'écosystème JavaScript côté serveur.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="skill-title">Responsive Design</h3>
+                    <p class="skill-description">Création d'interfaces adaptatives pour différents appareils et tailles d'écran.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="skill-title">Bases de données</h3>
+                    <p class="skill-description">Apprentissage des concepts de bases de données et découverte de MongoDB.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+        <div class="container">
+            <h2 class="section-title">Mon CV</h2>
+            <div class="resume-container">
+                <div class="resume-header">
+                    <div class="resume-actions">
+                        <a href="#" class="btn btn-download" id="downloadCV">
+                            <i class="fas fa-download"></i> Télécharger CV
+                        </a>
+                        <a href="#" class="btn btn-print" onclick="window.print()">
+                            <i class="fas fa-print"></i> Imprimer
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="resume-content">
+                    <div class="resume-section">
+                        <h3 class="resume-section-title">
+                            <i class="fas fa-graduation-cap"></i> Formation
+                        </h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">2022 - Présent</div>
+                                <div class="timeline-content">
+                                    <h4>BTS Services Informatiques aux Organisations</h4>
+                                    <h5>Lycée St Louis La Paix, Ploemeur</h5>
+                                    <p>Première année de formation en développement d'applications web et gestion de projets informatiques. Apprentissage des langages de programmation et des méthodologies de développement.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">2019 - 2022</div>
+                                <div class="timeline-content">
+                                    <h4>Baccalauréat Professionnel</h4>
+                                    <h5>Lycée Saint Joseph La Salle, Vannes</h5>
+                                    <p>Formation professionnelle développant les compétences techniques et pratiques nécessaires dans le domaine de l'informatique.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="resume-section">
+                        <h3 class="resume-section-title">
+                            <i class="fas fa-language"></i> Langues
+                        </h3>
+                        <div class="languages">
+                            <div class="language-item">
+                                <span class="language-name">Français</span>
+                                <div class="language-level">
+                                    <span class="level-dot active"></span>
+                                    <span class="level-dot active"></span>
+                                    <span class="level-dot active"></span>
+                                    <span class="level-dot active"></span>
+                                    <span class="level-dot active"></span>
+                                </div>
+                                <span class="language-text">Natif</span>
+                            </div>
+                            <div class="language-item">
+                                <span class="language-name">Anglais</span>
+                                <div class="language-level">
+                                    <span class="level-dot active"></span>
+                                    <span class="level-dot active"></span>
+                                    <span class="level-dot active"></span>
+                                    <span class="level-dot active"></span>
+                                    <span class="level-dot"></span>
+                                </div>
+                                <span class="language-text">Courant</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="resume-section">
+                        <h3 class="resume-section-title">
+                            <i class="fas fa-cogs"></i> Compétences Techniques
+                        </h3>
+                        <div class="technical-skills">
+                            <div class="skill-item">
+                                <span class="skill-name">HTML/CSS</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <span class="skill-text">Intermédiaire</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 60%"></div>
+                                </div>
+                                <span class="skill-text">Notions de base</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">React</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 30%"></div>
+                                </div>
+                                <span class="skill-text">Débutant</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Node.js</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 20%"></div>
+                                </div>
+                                <span class="skill-text">Découverte</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">MongoDB</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 25%"></div>
+                                </div>
+                                <span class="skill-text">Notions élémentaires</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Git</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 65%"></div>
+                                </div>
+                                <span class="skill-text">Bases solides</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="resume-footer">
+                    <p>Ce CV est également disponible au format PDF. Cliquez sur le bouton "Télécharger CV" pour obtenir la version PDF.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">Portfolio</div>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Liens rapides</h4>
+                    <ul>
+                        <li><a href="#hero">Accueil</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#skills">Compétences</a></li>
+                        <li><a href="#resume">Mon CV</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
 </html>
