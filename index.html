@@ -1,273 +1,271 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | jimmy tirard</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+
     <!-- Header -->
     <header id="header">
-        <div class="container">
-            <nav>
-                <a href="#" class="logo">Portfolio</a>
-                <ul class="nav-links">
-                    <li><a href="#hero">Accueil</a></li>
-                    <li><a href="#about">À propos</a></li>
-                    <li><a href="#skills">Compétences</a></li>
-                    <li><a href="#resume">Mon CV</a></li>
-                </ul>
-                <div class="hamburger" id="hamburger">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </nav>
-        </div>
+      <div class="container">
+        <nav>
+          <a href="#" class="logo">Portfolio</a>
+          <ul class="nav-links">
+            <li><a href="#hero">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#resume">Mon CV</a></li>
+          </ul>
+          <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
     </header>
 
     <!-- Hero Section -->
     <section id="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Bonjour, je suis <br><span style="color: var(--primary);">Jimmy Tirard</span></h1>
-                    <p>Passionné par le développement web et en apprentissage constant des nouvelles technologies.</p>
-                    <a href="#resume" class="btn">Voir mon CV</a>
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Bonjour, je suis <br /><span style="color: var(--primary)">Jimmy Tirard</span></h1>
+            <p>Passionné par le développement web et en apprentissage constant des nouvelles technologies.</p>
+            <a href="#resume" class="btn">Voir mon CV</a>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title">À propos de moi</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>Étudiant Passionné par le Développement</h3>
-                    <p>Je suis actuellement étudiant en développement web et je me passionne pour la création d'applications modernes. Chaque jour, j'apprends de nouvelles technologies et j'améliore mes compétences en programmation.</p>
-                    <p>Mon objectif est de devenir un développeur full-stack compétent. J'aime relever des défis techniques et découvrir comment transformer des idées créatives en solutions digitales fonctionnelles. Je suis particulièrement intéressé par les frameworks modernes et les bonnes pratiques de développement.</p>
-                    <a href="#resume" class="btn">Voir mon CV</a>
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="section-title">À propos de moi</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Étudiant Passionné par le Développement</h3>
+            <p>Je suis actuellement étudiant en développement web et je me passionne pour la création d'applications modernes. Chaque jour, j'apprends de nouvelles technologies et j'améliore mes compétences en programmation.</p>
+            <p>Mon objectif est de devenir un développeur full-stack compétent. J'aime relever des défis techniques et découvrir comment transformer des idées créatives en solutions digitales fonctionnelles. Je suis particulièrement intéressé par les frameworks modernes et les bonnes pratiques de développement.</p>
+            <a href="#resume" class="btn">Voir mon CV</a>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills" class="section">
-        <div class="container">
-            <h2 class="section-title">Mes compétences</h2>
-            <div class="skills-container">
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fab fa-html5"></i>
-                    </div>
-                    <h3 class="skill-title">HTML5 & CSS3</h3>
-                    <p class="skill-description">Création de sites web responsives et accessibles avec les standards modernes du web.</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fab fa-js"></i>
-                    </div>
-                    <h3 class="skill-title">JavaScript</h3>
-                    <p class="skill-description">Développement d'applications web interactives, en cours d'apprentissage des concepts avancés.</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fab fa-react"></i>
-                    </div>
-                    <h3 class="skill-title">React.js</h3>
-                    <p class="skill-description">Apprentissage de la création d'interfaces utilisateur avec React et ses concepts fondamentaux.</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fab fa-node-js"></i>
-                    </div>
-                    <h3 class="skill-title">Node.js</h3>
-                    <p class="skill-description">Initiation au développement backend avec Node.js et découverte de l'écosystème JavaScript côté serveur.</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fas fa-mobile-alt"></i>
-                    </div>
-                    <h3 class="skill-title">Responsive Design</h3>
-                    <p class="skill-description">Création d'interfaces adaptatives pour différents appareils et tailles d'écran.</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fas fa-database"></i>
-                    </div>
-                    <h3 class="skill-title">Bases de données</h3>
-                    <p class="skill-description">Apprentissage des concepts de bases de données et découverte de MongoDB.</p>
-                </div>
+      <div class="container">
+        <h2 class="section-title">Mes compétences</h2>
+        <div class="skills-container">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-html5"></i>
             </div>
+            <h3 class="skill-title">HTML5 & CSS3</h3>
+            <p class="skill-description">Création de sites web responsives et accessibles avec les standards modernes du web.</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-js"></i>
+            </div>
+            <h3 class="skill-title">JavaScript</h3>
+            <p class="skill-description">Développement d'applications web interactives, en cours d'apprentissage des concepts avancés.</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-react"></i>
+            </div>
+            <h3 class="skill-title">React.js</h3>
+            <p class="skill-description">Apprentissage de la création d'interfaces utilisateur avec React et ses concepts fondamentaux.</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-node-js"></i>
+            </div>
+            <h3 class="skill-title">Node.js</h3>
+            <p class="skill-description">Initiation au développement backend avec Node.js et découverte de l'écosystème JavaScript côté serveur.</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3 class="skill-title">Responsive Design</h3>
+            <p class="skill-description">Création d'interfaces adaptatives pour différents appareils et tailles d'écran.</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3 class="skill-title">Bases de données</h3>
+            <p class="skill-description">Apprentissage des concepts de bases de données et découverte de MongoDB.</p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Resume Section -->
     <section id="resume" class="section">
-        <div class="container">
-            <h2 class="section-title">Mon CV</h2>
-            <div class="resume-container">
-                <div class="resume-header">
-                    <div class="resume-actions">
-                        <a href="#" class="btn btn-download" id="downloadCV">
-                            <i class="fas fa-download"></i> Télécharger CV
-                        </a>
-                        <a href="#" class="btn btn-print" onclick="window.print()">
-                            <i class="fas fa-print"></i> Imprimer
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="resume-content">
-                    <div class="resume-section">
-                        <h3 class="resume-section-title">
-                            <i class="fas fa-graduation-cap"></i> Formation
-                        </h3>
-                        <div class="timeline">
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">2024 - Présent</div>
-                                <div class="timeline-content">
-                                    <h4>BTS Services Informatiques aux Organisations</h4>
-                                    <h5>Lycée St Louis La Paix, Ploemeur</h5>
-                                    <p>Première année de formation en développement d'applications web et gestion de projets informatiques. Apprentissage des langages de programmation et des méthodologies de développement.</p>
-                                </div>
-                            </div>
-                            <div class="timeline-item">
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-date">2021 - 2024</div>
-                                <div class="timeline-content">
-                                    <h4>Baccalauréat Professionnel</h4>
-                                    <h5>Lycée Saint Joseph La Salle, Vannes</h5>
-                                    <p>Formation professionnelle développant les compétences techniques et pratiques nécessaires dans le domaine de l'informatique.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="resume-section">
-                        <h3 class="resume-section-title">
-                            <i class="fas fa-language"></i> Langues
-                        </h3>
-                        <div class="languages">
-                            <div class="language-item">
-                                <span class="language-name">Français</span>
-                                <div class="language-level">
-                                    <span class="level-dot active"></span>
-                                    <span class="level-dot active"></span>
-                                    <span class="level-dot active"></span>
-                                    <span class="level-dot active"></span>
-                                    <span class="level-dot active"></span>
-                                </div>
-                                <span class="language-text">Natif</span>
-                            </div>
-                            <div class="language-item">
-                                <span class="language-name">Anglais</span>
-                                <div class="language-level">
-                                    <span class="level-dot active"></span>
-                                    <span class="level-dot active"></span>
-                                    <span class="level-dot active"></span>
-                                    <span class="level-dot active"></span>
-                                    <span class="level-dot"></span>
-                                </div>
-                                <span class="language-text">Courant</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="resume-section">
-                        <h3 class="resume-section-title">
-                            <i class="fas fa-cogs"></i> Compétences Techniques
-                        </h3>
-                        <div class="technical-skills">
-                            <div class="skill-item">
-                                <span class="skill-name">HTML/CSS</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 85%"></div>
-                                </div>
-                                <span class="skill-text">Intermédiaire</span>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">JavaScript</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 60%"></div>
-                                </div>
-                                <span class="skill-text">Notions de base</span>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">React</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 30%"></div>
-                                </div>
-                                <span class="skill-text">Débutant</span>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">Node.js</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 20%"></div>
-                                </div>
-                                <span class="skill-text">Découverte</span>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">MongoDB</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 25%"></div>
-                                </div>
-                                <span class="skill-text">Notions élémentaires</span>
-                            </div>
-                            <div class="skill-item">
-                                <span class="skill-name">Git</span>
-                                <div class="skill-bar">
-                                    <div class="skill-progress" style="width: 65%"></div>
-                                </div>
-                                <span class="skill-text">Bases solides</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="resume-footer">
-                    <p>Ce CV est également disponible au format PDF. Cliquez sur le bouton "Télécharger CV" pour obtenir la version PDF.</p>
-                </div>
+      <div class="container">
+        <h2 class="section-title">Mon CV</h2>
+        <div class="resume-container">
+          <div class="resume-header">
+            <div class="resume-actions">
+              <a href="#" class="btn btn-download" id="downloadCV"> <i class="fas fa-download"></i> Télécharger CV </a>
+              <a href="#" class="btn btn-print" onclick="window.print()"> <i class="fas fa-print"></i> Imprimer </a>
             </div>
+          </div>
+
+          <div class="resume-content">
+            <div class="resume-section">
+              <h3 class="resume-section-title"><i class="fas fa-graduation-cap"></i> Formation</h3>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-date">2024 - Présent</div>
+                  <div class="timeline-content">
+                    <h4>BTS Services Informatiques aux Organisations</h4>
+                    <h5>Lycée St Louis La Paix, Ploemeur</h5>
+                    <p>Première année de formation en développement d'applications web et gestion de projets informatiques. Apprentissage des langages de programmation et des méthodologies de développement.</p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-date">2021 - 2024</div>
+                  <div class="timeline-content">
+                    <h4>Baccalauréat Professionnel</h4>
+                    <h5>Lycée Saint Joseph La Salle, Vannes</h5>
+                    <p>Formation professionnelle développant les compétences techniques et pratiques nécessaires dans le domaine de l'informatique.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="resume-section">
+              <h3 class="resume-section-title"><i class="fas fa-language"></i> Langues</h3>
+              <div class="languages">
+                <div class="language-item">
+                  <span class="language-name">Français</span>
+                  <div class="language-level">
+                    <span class="level-dot active"></span>
+                    <span class="level-dot active"></span>
+                    <span class="level-dot active"></span>
+                    <span class="level-dot active"></span>
+                    <span class="level-dot active"></span>
+                  </div>
+                  <span class="language-text">Natif</span>
+                </div>
+                <div class="language-item">
+                  <span class="language-name">Anglais</span>
+                  <div class="language-level">
+                    <span class="level-dot active"></span>
+                    <span class="level-dot active"></span>
+                    <span class="level-dot active"></span>
+                    <span class="level-dot active"></span>
+                    <span class="level-dot"></span>
+                  </div>
+                  <span class="language-text">Courant</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="resume-section">
+              <h3 class="resume-section-title"><i class="fas fa-cogs"></i> Compétences Techniques</h3>
+              <div class="technical-skills">
+                <div class="skill-item">
+                  <span class="skill-name">HTML/CSS</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                  </div>
+                  <span class="skill-text">Intermédiaire</span>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">JavaScript</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 60%"></div>
+                  </div>
+                  <span class="skill-text">Notions de base</span>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">React</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 30%"></div>
+                  </div>
+                  <span class="skill-text">Débutant</span>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Node.js</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 20%"></div>
+                  </div>
+                  <span class="skill-text">Découverte</span>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">MongoDB</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 25%"></div>
+                  </div>
+                  <span class="skill-text">Notions élémentaires</span>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Git</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 65%"></div>
+                  </div>
+                  <span class="skill-text">Bases solides</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-footer">
+            <p>Ce CV est également disponible au format PDF. Cliquez sur le bouton "Télécharger CV" pour obtenir la version PDF.</p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-about">
-                    <div class="footer-logo">Portfolio</div>
-                    <div class="footer-social">
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="footer-links">
-                    <h4>Liens rapides</h4>
-                    <ul>
-                        <li><a href="#hero">Accueil</a></li>
-                        <li><a href="#about">À propos</a></li>
-                        <li><a href="#skills">Compétences</a></li>
-                        <li><a href="#resume">Mon CV</a></li>
-                    </ul>
-                </div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-about">
+            <div class="footer-logo">Portfolio</div>
+            <div class="footer-social">
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025. Tous droits réservés.</p>
-            </div>
+          </div>
+          <div class="footer-links">
+            <h4>Liens rapides</h4>
+            <ul>
+              <li><a href="#hero">Accueil</a></li>
+              <li><a href="#about">À propos</a></li>
+              <li><a href="#skills">Compétences</a></li>
+              <li><a href="#resume">Mon CV</a></li>
+            </ul>
+          </div>
         </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025. Tous droits réservés.</p>
+        </div>
+      </div>
     </footer>
 
     <!-- JavaScript -->
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
