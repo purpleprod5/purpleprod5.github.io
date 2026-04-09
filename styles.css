@@ -1279,6 +1279,12 @@ footer::before {
 .skill-card:nth-child(6) {
   transition-delay: 0.6s;
 }
+.skill-card:nth-child(7) {
+  transition-delay: 0.7s;
+}
+.skill-card:nth-child(8) {
+  transition-delay: 0.8s;
+}
 
 /* Custom cursor */
 .custom-cursor {
